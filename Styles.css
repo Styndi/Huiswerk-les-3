@@ -218,6 +218,7 @@ img {
     align-items: center;
     justify-content: center;
     width: 100%;
+    padding: 450px 0 450px 0;
 }
 .boxes-grid {
     flex-basis: 1400px;
@@ -229,7 +230,7 @@ img {
 
 }
 .text-box-img {
-    width: 30%;
+    width: 45%;
     padding: 50px 20px 0 50px;
 }
 /************Section 4 Text-box styling****************/
@@ -270,7 +271,6 @@ img {
     grid-auto-flow: column;
     margin: 0 0 1rem 0;
 
-
 }
 
 .grid-two {
@@ -281,6 +281,15 @@ img {
     justify-content: space-around;
 
 }
+#triangle-section-four {
+    width: 0;
+    height: 0;
+    border-left: 0 solid transparent;
+    border-right: 2000px solid transparent;
+    border-bottom: 100px solid #4b49e8;
+}
+/************Section 5 ****************/
+/************Section 5 regional styling****************/
 
-
+/************Section 5 styling ****************/
 
