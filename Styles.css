@@ -221,20 +221,23 @@ img {
 }
 .boxes-grid {
     flex-basis: 1400px;
+    width: 100%;
     flex-grow: 0;
     flex-shrink: 1;
 
 }
 .text-box-img {
     width: 30%;
-    padding: 50px 20px 20px 50px;
+    padding: 50px 20px 0 50px;
 }
 /************Section 4 Text-box styling****************/
 .text-web-design {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     border: 3px solid #5722CD;
+    box-sizing: content-box;
+    width: 100%;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
 }
 .text-web-design h1{
@@ -252,8 +255,12 @@ img {
     font-weight: bold;
     font-family: Roboto, sans-serif;
     color: #0C0C0C;
-
-
+    padding: 0 0 40px;
+}
+.section-four-image {
+    flex-basis: 350px;
+    flex-grow: 0;
+    flex-shrink: 1;
 }
 
 
