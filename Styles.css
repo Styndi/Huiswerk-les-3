@@ -1,0 +1,259 @@
+/*Global Index*/
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Roboto:wght@100&display=swap');
+/* ---------------  BODY/header GENERAL  ---------------------*/
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #F3F6F9;
+
+}
+
+h1, h2, h3 {
+    font-family: Merriweather, sans-serif;
+}
+
+p {
+    font-family: Roboto, sans-serif;
+}
+/*HEADER STYLE*/
+
+header {
+    background: linear-gradient(to right, #4b49e8, #5722cd);
+    color: #F3F6F9;
+
+}
+/*Your Website */
+/************Section 1****************/
+#menu-top  {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+
+}
+
+#menu-top ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: 300px;
+
+}
+
+li a {
+    text-decoration: none;
+    color: #F3F6F9;
+}
+
+.your-website {
+    width: 750px;
+    margin: auto;
+    text-align: center;
+    font-size: 20px;
+}
+
+#succeed {
+    padding: 20px 20px 50px;
+}
+
+button {
+    background-color: #ED4385;
+    border: none;
+    color: #F3F6F9;
+    border-radius: 100px;
+    height: 50px;
+    width: 225px;
+    font-family: 'Merriweather', serif;
+    font-size: 15px;
+    box-shadow: 2px 5px 20px rgba(0, 0, 0, 0.5);
+}
+
+#triangle {
+    width: 0;
+    height: 0;
+    border-left: 0 solid transparent;
+    border-right: 2000px solid transparent;
+    border-bottom: 100px solid #F3F6F9;
+}
+/************Section 2****************/
+
+
+.intro  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 220px 0 0;
+}
+
+div h3 {
+    width: 750px;
+    margin: auto;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #5722CD;
+}
+
+#question {
+    width: 750px;
+    margin: auto;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 50px;
+    font-weight: 900;
+}
+
+#click {
+    text-decoration: none;
+     color: #5722CD;;
+}
+#triangle-section-two {
+    width: 0;
+    height: 0;
+    border-left: 0 solid transparent;
+    border-right: 2000px solid transparent;
+    border-bottom: 100px solid #ededed;
+}
+/************Section 3****************/
+/************Section 3 Regional Styling ****************/
+
+.articles {
+   display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 450px 0 0;
+    background-color: #ededed;
+
+}
+article {
+    display: flex;
+    flex-direction: row;
+
+}
+span {
+    flex-basis: 600px;
+    flex-grow: 0;
+    flex-shrink: 1;
+}
+
+img {
+    width: 100%;
+    padding: 20px 20px 20px;
+}
+
+/************Section 3 Positioning of section 3****************/
+.row-stone {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.row-inverted {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: space-between;
+}
+.articles, h1 {
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+}
+/************Section 3 Styling text****************/
+.text-worth {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 510px;
+    margin: auto;
+    text-align: left;
+    padding: 50px 50px 50px;
+}
+.text-worth p{
+    font-weight: 999;
+    font-size: 20px;
+    padding: 20px 20px 20px;
+}
+.text-worth h1 {
+    width: 400px;
+    margin: auto;
+    text-align: left;
+    font-weight: 999;
+    font-size: 25px;
+    padding: 50px 10px 50px;
+}
+.project {
+    font-family: Roboto, sans-serif;
+    width: 750px;
+    margin: auto;
+    text-align: left;
+    padding: 20px 0 20px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #5722CD;
+}
+#triangle-section-three {
+    width: 0;
+    height: 0;
+    border-left: 0 solid transparent;
+    border-right: 2000px solid transparent;
+    border-bottom: 100px solid #F3F6F9;
+}
+/************Section 4 ****************/
+/************Section 4 regional styling****************/
+.text-boxes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.boxes-grid {
+    flex-basis: 1400px;
+    flex-grow: 0;
+    flex-shrink: 1;
+
+}
+.text-box-img {
+    width: 30%;
+    padding: 50px 20px 20px 50px;
+}
+/************Section 4 Text-box styling****************/
+.text-web-design {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 3px solid #5722CD;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+.text-web-design h1{
+    width: 100%;
+    font-weight: 999;
+    font-size: 30px;
+    font-family: Merriweather, sans-serif;
+    color: #5722CD;
+    padding: 0 20px 20px 50px;
+
+}
+.text-web-design p {
+    width: 50%;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Roboto, sans-serif;
+    color: #0C0C0C;
+
+
+}
+
+
