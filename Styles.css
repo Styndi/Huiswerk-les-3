@@ -207,7 +207,7 @@ img {
     width: 0;
     height: 0;
     border-left: 0 solid transparent;
-    border-right: 2000px solid transparent;
+    border-right: 2500px solid transparent;
     border-bottom: 100px solid #F3F6F9;
 }
 /************Section 4 ****************/
@@ -232,35 +232,36 @@ img {
 }
 /************Section 4 Text-box styling****************/
 .text-web-design {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    border: 3px solid #5722CD;
-    box-sizing: content-box;
-    width: 100%;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  border: 3px solid #5722CD;
+  box-sizing: content-box;
+  width: 100%;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
 }
 .text-web-design h1{
-    width: 100%;
-    font-weight: 999;
-    font-size: 30px;
-    font-family: Merriweather, sans-serif;
-    color: #5722CD;
-    padding: 0 20px 20px 50px;
+  width: 100%;
+  font-weight: 999;
+  font-size: 30px;
+  font-family: Merriweather, sans-serif;
+  color: #5722CD;
+  padding: 0 20px 20px 50px;
 
 }
 .text-web-design p {
-    width: 50%;
-    font-size: 20px;
-    font-weight: bold;
-    font-family: Roboto, sans-serif;
-    color: #0C0C0C;
-    padding: 0 0 40px;
+  width: 50%;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Roboto, sans-serif;
+  color: #0C0C0C;
+  padding: 0 0 40px 50px;
 }
 .section-four-image {
-    flex-basis: 350px;
-    flex-grow: 0;
-    flex-shrink: 1;
+  flex-basis: 350px;
+  flex-grow: 0;
+  flex-shrink: 1;
 }
+
 
 
