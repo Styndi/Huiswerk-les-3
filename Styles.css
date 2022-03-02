@@ -224,6 +224,8 @@ img {
     width: 100%;
     flex-grow: 0;
     flex-shrink: 1;
+    justify-content: space-between;
+    align-content: space-around;
 
 }
 .text-box-img {
@@ -233,7 +235,7 @@ img {
 /************Section 4 Text-box styling****************/
 .text-web-design {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   flex-wrap: wrap;
   border: 3px solid #5722CD;
   box-sizing: content-box;
@@ -250,7 +252,7 @@ img {
 
 }
 .text-web-design p {
-  width: 50%;
+  width: 90%;
   font-size: 20px;
   font-weight: bold;
   font-family: Roboto, sans-serif;
@@ -261,6 +263,23 @@ img {
   flex-basis: 350px;
   flex-grow: 0;
   flex-shrink: 1;
+}
+.grid {
+    display: grid;
+    gap: 2rem;
+    grid-auto-flow: column;
+    margin: 0 0 1rem 0;
+
+
+}
+
+.grid-two {
+    display: grid;
+    gap: 2rem;
+    grid-auto-flow: column;
+    margin: 0 0 1rem 0;
+    justify-content: space-around;
+
 }
 
 
